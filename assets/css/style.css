@@ -132,10 +132,6 @@ body{
     height: 774px;
     background: url('../img/intro.png') no-repeat center center / cover;
 }
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
 .intro_wrapper{
     height: 776px;
     display: flex;
@@ -184,12 +180,8 @@ body{
 /*ABOUT US*/
 .about{
     padding: 100px 0;
-    background-color:#ffffff;
+    background: url('../img/frame1.png') no-repeat center center / cover;
     height: 775px;
-}
-.container{
-    width: 1200px;
-    margin: 0 auto;
 }
 .about_img{
     height: 576px;
@@ -261,18 +253,14 @@ body{
 
 /*ALGORITM*/
 .algoritm{
-    height: 800px;
-    background: #FAFAFC;
-}
-.container{
-    width: 1200px;
-    margin: 0 auto;
+    height: 900px;
+    background: url('../img/frame2.png') no-repeat center center / cover;
 }
 .intro_algoritm{
     text-align: center;
     height: 129px;
-    margin-left: 310px;
-    margin-top: 100px;    
+    margin-left: 222px;
+    padding: 100px;    
 }
 .text_our{
     width: 119px;
@@ -338,7 +326,6 @@ body{
     height: 118px;
     margin-left: -10px;
     width: 379px;
-    background: #FAFAFC;
     margin-top: 0px;
     border-radius: 10px;
 }
@@ -346,7 +333,6 @@ body{
     height: 118px;
     margin-left: -10px;
     width: 379px;
-    background: #FAFAFC;
     margin-top: 0px;
     border-radius: 10px;  
 }
@@ -376,10 +362,6 @@ body{
 /*КАТЕГОРИИ*/
 .categories{
     height: 1300px;
-}
-.container{
-    width: 1200px;
-    margin: 0 auto;
 }
 .intro_categories{
     text-align: center;
@@ -535,11 +517,6 @@ body{
     height: 600px;
     background: url('../img/image_water.png') no-repeat center center / cover;
 }
-.container{
-    width: 1200px;
-    margin: 0 auto;
-    height: 700px;
-}
 .ocean_wrapper{
     height: 600px;
     display: flex;
@@ -693,10 +670,6 @@ body{
     overflow: hidden;
     background: #375C58 url('../img/shape.png') no-repeat center center / cover;
 }
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
 .info_shop{
     text-align: center;
     height: 129px;
@@ -760,11 +733,7 @@ body{
 .guides{
     padding: 100px 0;
     width: 100%;
-    height: 770px;
-}
-.container{
-    width: 1200px;
-    margin: 0 auto;
+    height: 960px;
 }
 .guides_cont{
     height: 643.48px;
@@ -932,10 +901,7 @@ body{
 .reading{
     padding: 100px 0;
     height: 805px;
-}
-.container{
-    width: 1200px;
-    margin: 0 auto;
+    background: url('../img/frame3.png') no-repeat center center / cover;
 }
 .reading_img{
     height: 576px;
@@ -1052,12 +1018,12 @@ body{
 .text__footer2{
     display: grid;
     margin-left: 370px;
-    margin-top: -180px;
+    margin-top: -210px;
 }
 .text__footer3{
     display: grid;
     margin-left: 610px;
-    margin-top: -115px;
+    margin-top: -212px;
 }
 .footer__text3{
     font-family: 'Poppins';
@@ -1068,8 +1034,8 @@ body{
     color: #FAFAFC;
 }
 .text__input__box{
-    background: #F9FAFB;;
-    border: 1px solid #F9FAFB;;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
     box-sizing: border-box;
     border-radius: 8px;
     height: 53px;
@@ -1081,15 +1047,15 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #575445;
+    color: #6F7278;
     padding-left: 34px;
 }
 .btn__footer{
-    background: #3A4443;
+    background: #575445;
     border-radius: 10px;
     height: 39px;
     width: 83px;
-    border: #3A4443;
+    border: #575445;
     margin-left: -74px;
     margin-top: 7px;
     opacity: 1;
@@ -1117,7 +1083,7 @@ body{
 .img__footer1{
     display: flex;
     margin-left: 1052px;
-    margin-top: -80px;
+    margin-top: 49px;
 }
 .img__in{
     margin-right: 20px;
@@ -1133,10 +1099,10 @@ body{
     transform: scale(1.2);
     transition: all 0.3s ease;
 }
-.img__instagram{
+.img__inst{
     margin-right: 20px;
 }
-.img__instagram:hover {
+.img__inst:hover {
     transform: scale(1.2);
     transition: all 0.3s ease;
 }
@@ -1155,5 +1121,5 @@ body{
     line-height: 22px;
     color: #FFFFFF;
     margin-left: 136px;
-    margin-top: -128px;
+    margin-top: -20px;
 }
